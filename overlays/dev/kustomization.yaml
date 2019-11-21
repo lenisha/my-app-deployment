@@ -3,3 +3,6 @@ kind: Kustomization
 bases:
 - ../../base
 namePrefix: lenisha-
+images:
+- name: gitopsworkshop/my-app
+  newTag: v2
